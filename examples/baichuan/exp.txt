@@ -1,2 +1,3 @@
 test case            item       cpu       gpu       trt_llm    hf       time_reduce speedup
 cnn_dailymail        0-99       8700k     4090      102.3      250.6    59.2%       145%   
+cnn_dailymail        0-19       8369B     A10       29.5       47.4     38%         60% 

@@ -104,6 +104,7 @@ concepts used in TensorRT-LLM, we recommend you to read the following
 
 After installing the [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit),
 please run the following commands to install TensorRT-LLM for x86_64 users.
+if you do not want to install NVIDIA Container Toolkit, just replace "--gpus all" to "-e NVIDIA_VISIBLE_DEVICES=all". nb.
 
 ```bash
 # Obtain and start the basic docker image environment.
